@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto 1</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mi pagina web de presentación</h1>
+    </header>
+    <div class="container">
+        <section id="sobre-mi">
+            <h1>Sobre Mi</h1>
+            <p>Hola, soy Hernán Beneventano, estudiante en Escuela Tecnica "Valentin Virasoro". Me interesa el desarrollo web y estoy aprendiendo a crear sitios web.</p>
+            <p>Mi meta es continuar aprendiendo y crecer en el campo de la tecnología.</p>
+            <p>¡Gracias por visitar mi página!</p>
+        </section>
+        <h1 class="tecnologias">Mis tecnologias favoritas</h1>
+        <section id="tecnologias-favoritas">
+            <div class="card">
+                <img src="img/html logo.png" alt="Logo de HTML">
+                <div class="card-content">
+                    <h2>HTML</h2>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Unofficial_JavaScript_logo_2.svg.png" alt="Logo de JavaScript">
+                <div class="card-content">
+                    <h2>JavaScript</h2>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/logo css.png" alt="Logo de CSS">
+                <div class="card-content">
+                    <h2>CSS</h2>
+                </div>
+            </div>
+        </section>
+        <section id="actividades-favoritas">
+            <form id="actividad-form">
+                <h1>Mis Actividades Favoritas</h1>
+                <input type="text" id="titulo" placeholder="Nombre de la actividad" required>
+                <input id="descripcion" placeholder="Descripción" required></input>
+                <input type="url" id="imagen-url" placeholder="URL de Imagen" required>
+                <button type="submit">Agregar Actividad</button>
+            </form>
+            <div id="actividades-list">
+                <!-- Aquí se agregarán las tarjetas de actividades -->
+            </div>
+        </section>
+    </div>
+
+    
+
+</body>
+    <script src="scripts/index.js"></script>
+</html>
